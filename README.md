@@ -1,5 +1,5 @@
 # ![OpenRPA](OpenRPA-logo.png)OpenRPA Illustrated Tutorial
-Open Source Robotic Process Automation Software
+This Repo. is forked from [open-rpa/openrpa](https://github.com/open-rpa/openrpa), containing illustrated tutorial of Open Source Robotic Process Automation Software (OpenRPA).
 
 [![GitHub forks](https://img.shields.io/github/forks/open-rpa/openrpa.svg)](https://github.com/open-rpa/openrpa/network) 
 [![GitHub license](https://img.shields.io/github/license/open-rpa/openrpa.svg)](https://github.com/open-rpa/openrpa/blob/master/LICENSE)
