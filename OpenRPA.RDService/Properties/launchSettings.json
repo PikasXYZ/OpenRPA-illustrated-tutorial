@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "OpenRPA.RDService": {
-      "commandName": "Project",
-      "commandLineArgs": "service"
-    }
-  }
-}
