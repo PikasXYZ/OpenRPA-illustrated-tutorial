@@ -6,3 +6,19 @@ This Repo. is forked from [open-rpa/openrpa](https://github.com/open-rpa/openrpa
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/open-rpa/openrpa/graphs/commit-activity)
 
 Download and try OpenRPA here [💾here](https://github.com/open-rpa/openrpa/releases/latest/download/OpenRPA.msi)
+
+---
+
+##Basic Concept
+
+###Variable Declaration
+
+###Common Variable Type
+- String
+- Int16/Int32/Int64
+- Boolean
+- NMElement/IEElement
+
+###Sequence
+
+###
