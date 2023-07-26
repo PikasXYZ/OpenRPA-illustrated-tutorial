@@ -10,12 +10,24 @@ Download and try OpenRPA here [💾here](https://github.com/open-rpa/openrpa/rel
 
 ## Basic Concept
 
+### Workflow
+  `Workflow` is an execution file in OpenRPA, which can be shared by exporting to json file.
+
+### Project
+  `Project` is the container of wolkflows, just like folders in Windows & macOS.
+
+### Sequence
+
+
+### Cancel Key
+   When the computer loses control due to the bad design of a workflow, the key to stop excuting it forcefully is called "Cancel Key", which can be edit in Settings (default is ESC key). 
+
 ### Variable Declaration
 
 ### Common Variable Type
 
 - #### String
-  String means **words**, supposed to be framed by 2 double quotes (e.g. `"Hello World"`).  Multiple strings can be merged by operator `+` (e.g. `"Hello" + " World"`). Double quotes of a string aren't used or displayed while excuting, their exsistence is just for letting computers know  **it's a string.**. Therefore, the result of `"Hello" + " World"` isn't `Hello"" World` but `Hello World`. When putting double quotes which are goning to be used, escape characters `\` must be put before (e.g. "Hello \"Tom\""). BTW, some variable types can be convert into string by certain methods like `.ToString` or `Convert.ToString()` (e.g. `100.ToString`).
+  String means **words**, supposed to be framed by 2 double quotes (e.g. `"Hello World"`).  Multiple strings can be merged by operator `+` (e.g. `"Hello" + " World"`). Double quotes of a string aren't used or displayed while excuting, their exsistence is just for letting computers know  **it's a string.**. Therefore, the result of `"Hello" + " World"` isn't `Hello"" World` but `Hello World`. When putting double quotes which are goning to be used, escape characters `\` must be put before (e.g. `"Hello \"Tom\""`). BTW, some variable types can be convert into string by certain methods like `.ToString` or `Convert.ToString()` (e.g. `100.ToString`).
   
 - #### Int16/Int32/Int64
   `Int` is a fundamental variable type that stands for **integer**, which means it can store number. Besides, it's signed, so it can represent both positive and negative values. 
@@ -24,14 +36,10 @@ Download and try OpenRPA here [💾here](https://github.com/open-rpa/openrpa/rel
   `Boolean` is a fundamental variable type that represents a binary value, which has two possible states: `True` or `False`. They are usually used to express the outcome of logical comparisons and decisions within a program. To toggle a boolean variable, `not` should be add before (e.g. `not isChecked`). 
 
 - #### NMElement/IEElement
-  In the context of web development, "elements" refer to the building blocks or components that make up a web page's structure and content. They're defined by HTML (Hypertext Markup Language) and also the fundamental components that browsers use to interpret and display web pages. In OpenRPA, they can be get by the tool `Get Element` as a local variable `item`, which has a lot of useful properties and method (e.g. `item.Weight`, `item.Height`, `item.Value`...etc.)
+  In the context of web development, `Element` refer to the building blocks or components that make up a web page's structure and content. They're defined by HTML (Hypertext Markup Language) and also the fundamental components that browsers use to interpret and display web pages. In OpenRPA, they can be get by the tool `Get Element` as a local variable `item`, which has a lot of useful properties and method (e.g. `item.Weight`, `item.Height`, `item.Value`...etc.)
 
 ### Logic Operators
 
-### Sequence
 
-
-### Cancel Key
-   When the computer loses control due to the bad design of a workflow, the key to stop excuting it forcefully is called "Cancel Key", which can be edit in Settings (default is ESC key). 
    
 
